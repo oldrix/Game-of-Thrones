@@ -1,0 +1,35 @@
+.logo,
+.menuu {
+  margin-right: 25px;
+  vertical-align: middle;
+  display: inline-block;
+}
+.menuu li {
+  margin-right: 25px;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.menuu a {
+  vertical-align: middle;
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+}
+.logo h1 {
+  vertical-align: middle;
+  font-size: 30px;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+.menuu a:hover {
+  color: rgb(255, 0, 0);
+}
+body {
+  flex-direction: column;
+  background-color: black;
+}
